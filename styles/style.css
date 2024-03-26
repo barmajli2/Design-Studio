@@ -1,0 +1,49 @@
+/* [0] Global Style*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --mainColor: red;
+    --bgColor: #ededed;
+    --hoverColor: #ddfddf;
+    --spaceSection: 100px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/* [1] Navbar */
+
+
+/* [2] Hero Section  */
+
+
+/* [3] Our Client Section */
+
+
+/* [4] What is Web3 studio?  Section  */
+
+
+/* [5] Projects Section */
+
+
+/* [6] Other projects Section */
+
+
+/* [7] How we can help grow */
+
+
+/* [8] About Section */
+
+
+/* [9] Footer */
