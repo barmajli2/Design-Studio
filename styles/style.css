@@ -91,6 +91,9 @@ p {
 
 /* [2] Hero Section  */
 
+#hero .container .test h1{
+    color: gold;
+}
 
 /* [3] Our Client Section */
 
