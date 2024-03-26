@@ -36,7 +36,10 @@ Our clients are backed by:
 -p
 
 ```
-Things around crypto, NFTs and web3 as a whole are unbelievably interesting. Unfortunately, the overall usability as well as the quality of the UI is often still not up to the task. To achieve mass adoption, overcoming those hurdles will be key. And this is where our story begins.
+Things around crypto, NFTs and web3 as a whole are unbelievably interesting. 
+Unfortunately, the overall usability as well as the quality of the UI is often 
+still not up to the task. To achieve mass adoption, overcoming those hurdles will 
+be key. And this is where our story begins.
 ```
 
 ### Projects Section :
