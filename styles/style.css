@@ -12,7 +12,12 @@
     --mainColor: red;
     --bgColor: #ededed;
     --hoverColor: #ddfddf;
-    --spaceSection: 100px;
+    font-size: 10px;
+
+}
+
+section {
+    margin-block: 11rem;
 }
 
 .container {
@@ -20,6 +25,66 @@
     margin: auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.row-cols-2>* {
+    flex: 0 0 auto;
+    width: 50%
+}
+
+.row-cols-3>* {
+    flex: 0 0 auto;
+    width: 33.3333333333%
+}
+
+.row-cols-4>* {
+    flex: 0 0 auto;
+    width: 25%
+}
+
+.col {
+    flex: 1 0 0%
+}
+
+button {
+    margin: 0;
+    font-family: inherit;
+    font-size: 2.5rem;
+    line-height: inherit;
+    text-transform: none;
+    outline: 0;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 10rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: rgb(189, 180, 180);
+    padding-block: 2.5rem;
+}
 
 
 /* [1] Navbar */
@@ -44,6 +109,61 @@
 
 
 /* [8] About Section */
+#about {
+    text-align: center;
 
+}
+
+#about .container .boxes {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+}
+
+#about .container .boxes .about-image-left .square {
+    position: absolute;
+    left: -34rem;
+    top: 45%;
+    height: 300px;
+}
+
+#about .container .boxes .about-content {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#about .container .boxes .about-content .img {
+    margin-top: auto;
+}
+
+#about .container .boxes .about-content button i {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.about-image-rigth {
+    padding-bottom: 5rem;
+}
+
+#about .container .boxes .about-image-rigth .tringle {
+    width: 20rem;
+    margin-bottom: 3rem;
+}
+
+#about .container .boxes .about-image-rigth .circle {
+    width: 23rem;
+    position: absolute;
+    bottom: 0rem;
+    right: 4rem;
+    z-index: -1;
+}
+
+#about .container .boxes .about-image-rigth .img,
+#about .container .boxes .about-image-left .img {
+    width: 20rem;
+}
 
 /* [9] Footer */
