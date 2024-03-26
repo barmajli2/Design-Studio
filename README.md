@@ -19,7 +19,8 @@
 
 ![6_Help_Grow](https://github.com/barmajli2/Design-Studio/assets/162905905/a2b94b68-fb83-4bc6-8957-b902b53e6b0c)
 
-![7_About](https://github.com/barmajli2/Design-Studio/assets/162905905/0c12f35e-0821-4914-afb4-0579d3f99361)
+> [!TIP] 
+>![7_About](https://github.com/barmajli2/Design-Studio/assets/162905905/0c12f35e-0821-4914-afb4-0579d3f99361)
 
 ![8_Footer](https://github.com/barmajli2/Design-Studio/assets/162905905/be1a6464-86c9-4ff0-abbe-8e0d386723ec)
 
