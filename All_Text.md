@@ -87,7 +87,9 @@ Maintain process
 ### About Section : 
 
 ```
-Team of product and brand designers that are really passionate about blockchain technology and good design. We are not just UI freaks! We advocate users for better product experience and common sense.
+Team of product and brand designers that are really passionate about 
+blockchain technology and good design. We are not just UI freaks! We 
+advocate users for better product experience and common sense.
 ```
 -btn
 
