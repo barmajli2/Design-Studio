@@ -9,7 +9,9 @@
 - about
 ```
 
-<!-- All text in web -->
+> [!NOTE]
+>  All text we use in websit 
+
 
 ### Hero Section :
 
