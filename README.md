@@ -10,10 +10,11 @@
 - [ ] Navber
 - [ ] Hero Section
 - [ ] Our Client Section
+- [x]  Project Section
 - [ ] Other Project Section
 - [ ] Help Grow Section
 - [x] About Section
-- [ ] Footer
+- [x] Footer
 
 
 
