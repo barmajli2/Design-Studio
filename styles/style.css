@@ -10,7 +10,6 @@
 :root {
     scroll-behavior: smooth;
     --mainColor: red;
-    --bgColor: #ededed;
     --hoverColor: #ddfddf;
     font-size: 10px;
 }
@@ -91,9 +90,6 @@ p {
 
 /* [2] Hero Section  */
 
-#hero .container .test h1{
-    color: gold;
-}
 
 /* [3] Our Client Section */
 
