@@ -11,7 +11,7 @@
 :root {
     scroll-behavior: smooth;
     --mainColor: red;
-    --hoverColor: #ddfddf;
+    --hoverColor:  rgb(22, 188, 230);
     font-size: 10px;
 }
 
