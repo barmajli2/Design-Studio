@@ -1,4 +1,3 @@
-@import url('projects.css');
 /*Any Mobile Device*/
  @media (max-width:576px) {
 
@@ -36,6 +35,13 @@
 
      /* [5] Projects Section */
 
+        #projects .project-grid-parent {
+            grid-template-columns: repeat(1,calc(100%));
+            column-gap: 0;
+        }
+        #projects .title {
+            text-align: center;
+        }
 
      /* [6] Other projects Section */
      

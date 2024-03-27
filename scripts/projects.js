@@ -1,8 +1,8 @@
 let onloadProjects = ( ()=>{
     "use strict";
     let styleProjectGrid = (()=>{
-        let gridCild = document.querySelectorAll('.project-gred-parent > .project-grid-child');
-        let gridImgs = document.querySelectorAll('.project-gred-parent img');
+        let gridCild = document.querySelectorAll('.project-grid-parent > .project-grid-child');
+        let gridImgs = document.querySelectorAll('.project-grid-parent img');
         // get img heights in array and its index for track in itterates
         let imgHeights = Array.from(gridImgs).map(e=> e.height);
         let imgHeightIndex = 0;
@@ -34,6 +34,7 @@ let onloadProjects = ( ()=>{
                 }
             }
         });
+        document.querySelector('.project-grid-parent').style.gridTemplateRows = `repeat(${col1length>col2length?col1length:col2length},auto)`;
     })();
 });
 

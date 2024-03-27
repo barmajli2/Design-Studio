@@ -10,25 +10,25 @@
     font-style: normal;
 }
 #projects  h2 {
-    font-size: 40px;
+    /* font-size: 40px; */
     margin-bottom: 30px;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 #projects h3 {
     font-size: 20px;
     font-weight: 300;
 }
-.project-gred-parent {
+#projects .project-grid-parent {
     font-family: sans-serif;
     display: grid;
     grid-template-columns: repeat(2,calc(50% - 10px));
     grid-template-rows: repeat(100,auto);
     gap: 10px;
 }
-.project-grid-child * {
+#projects .project-grid-child * {
     width: 100%;
 }
-.project-text-area {
+#projects .project-text-area {
     padding: 20px;
     background-color: var(--project-dark-bg-color);
     display: flex;
@@ -36,7 +36,7 @@
     justify-content: center;
     gap: 15px;
 }
-.project-padge {
+#projects .project-padge {
     display: inline-block;
     background-color: var(--project-padge-bg-color);
     color: var(--project-padge-text-color);
