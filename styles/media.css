@@ -1,4 +1,5 @@
- /*Any Mobile Device*/
+@import url('projects.css');
+/*Any Mobile Device*/
  @media (max-width:576px) {
 
      /* [0] Global Style*/
@@ -37,7 +38,7 @@
 
 
      /* [6] Other projects Section */
-
+     
 
      /* [7] How we can help grow */
 
