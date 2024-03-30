@@ -18,7 +18,39 @@
 section {
     margin-block: 11rem;
 }
+#introduction-wep3 {
 
+  position: relative;
+}
+#introduction-wep3 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 40vh;
+}
+#introduction-wep3 .container div {
+  max-width: 40vw;
+  min-width: 300px;
+  margin: 0 auto;
+}
+#introduction-wep3 .container div p {
+  padding-block: 0;
+  line-height: 1.5;
+}
+#introduction-wep3 .container img {
+  max-width: 40vw;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.light-img {
+  height: 70vh;
+  position: absolute;
+  width: 300px;
+  top: -70px;
+  right: -110px;
+  z-index: -1;
+}
 .container {
     width: 90%;
     margin: auto;
