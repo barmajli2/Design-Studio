@@ -21,6 +21,7 @@ section {
 #introduction-wep3 {
 
   position: relative;
+  overflow: hidden;
 }
 #introduction-wep3 .container {
   display: flex;
