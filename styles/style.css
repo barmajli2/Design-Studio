@@ -28,7 +28,7 @@ section {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 40vh;
+  /* height: 0v4h; */
 }
 #introduction-wep3 .container div {
   max-width: 40vw;
