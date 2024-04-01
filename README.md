@@ -7,8 +7,8 @@
 
 ---
 
-- [ ] Navber
-- [ ] Hero Section
+- [x] Navber
+- [x] Hero Section
 - [ ] Our Client Section
 - [x]  Project Section
 - [ ] Other Project Section
