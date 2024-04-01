@@ -197,6 +197,15 @@ header nav .menu-logo span{
 
 /* [3] Our Client Section */
 
+#ourClient .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #ourClient .container img{
+    width: 20%;
+  }
+
 /* [4] What is Web3 studio?  Section  */
 
 /* [5] Projects Section */
