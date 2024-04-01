@@ -37,11 +37,6 @@
 
     /* [5] Projects Section */
 
-    #projects .project-grid-parent {
-        grid-template-columns: repeat(1, calc(100%));
-        column-gap: 0;
-    }
-
     #projects .title {
         text-align: center;
     }
