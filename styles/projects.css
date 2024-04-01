@@ -2,6 +2,9 @@
     --project-dark-bg-color: #474747;
     --project-padge-bg-color: #070707;
     --project-padge-text-color: #f3f3f3;
+    --project-flex-gap-small:  10px;
+    --project-flex-gap-medium: 15px;
+    --project-flex-gap-large:  20px;
     @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 }
 #projects  h2,#projects  h3 {
@@ -23,25 +26,92 @@
     display: grid;
     grid-template-columns: repeat(2,calc(50% - 10px));
     grid-template-rows: repeat(100,auto);
-    gap: 10px;
+    gap: var(--project-flex-gap-small,10px);
 }
 #projects .project-grid-child * {
     width: 100%;
 }
 #projects .project-text-area {
     padding: 20px;
-    background-color: var(--project-dark-bg-color);
+    background-color: var(--project-dark-bg-color,#444);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: var(--project-flex-gap-medium);
 }
 #projects .project-padge {
     display: inline-block;
-    background-color: var(--project-padge-bg-color);
-    color: var(--project-padge-text-color);
+    background-color: var(--project-padge-bg-color,black);
+    color: var(--project-padge-text-color,white);
     padding: 0.5em 1.5em;
     line-height: 1em;;
     border-radius: calc(1em + 1em);
     width: fit-content;
 }
+
+#otherProject .project-scroll {
+    display: flex;
+    flex-direction: column;
+}
+#otherProject .project-scroll .scroll-view {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: var(--project-flex-gap-small,10px);
+}
+#otherProject .project-scroll .scroll-view > * {
+    max-width: calc(33.33% - 20px);
+    height: 100%;
+    transition: 0.5s transform, 0.5s border,0.5s margin-left,0.5s margin-right;
+}
+#otherProject .project-scroll .scroll-view > *:hover {
+    /* transform: scale(1.1 , 1.1); */
+    border: 2px solid #360808;
+    border-image-source: linear-gradient(45deg ,#b80606 0%,#0fadc9 50%,#b80606 100%);
+    border-image-width: 10px;
+    border-image-outset: 0px;
+    border-image-slice: 1;
+    border-image-repeat: round;
+    z-index: 2;
+}
+#otherProject .project-scroll .scroll-control {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#otherProject .project-scroll .scroll-control .scroll-indexs ,
+#otherProject .project-scroll .scroll-control .scroll-indecators {
+    display: flex;
+    gap: var(--project-flex-gap-small,15px);
+    font-size: 16px;
+}
+#otherProject .project-scroll .scroll-control .scroll-indexs > * {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    opacity: 0.5;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    transition: 0.3s;
+}
+#otherProject .project-scroll .scroll-control .scroll-indexs > * > * {
+    width: 100%;
+    height: 0.125rem;
+    background-color: var(--project-padge-text-color,white);
+}
+#otherProject .project-scroll .scroll-control .scroll-indexs > *.active {
+    width: 2rem;
+    opacity: 1;
+    cursor: auto;
+}
+#otherProject .project-scroll .scroll-control .scroll-indecators .scroll-left ,
+#otherProject .project-scroll .scroll-control .scroll-indecators .scroll-right {
+    color: var(--project-padge-text-color,white);
+    opacity: 0.5;
+    cursor: pointer;
+}
+#otherProject .project-scroll .scroll-control .scroll-indecators .scroll-left:hover ,
+#otherProject .project-scroll .scroll-control .scroll-indecators .scroll-right:hover {
+    opacity: 1;
+} 

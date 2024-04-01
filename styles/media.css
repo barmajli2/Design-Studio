@@ -1,141 +1,145 @@
 /*Any Mobile Device*/
- @media (max-width:576px) {
+@media (max-width:576px) {
 
-     /* [0] Global Style*/
-     :root {
-         font-size: 8px;
-     }
+    /* [0] Global Style*/
+    :root {
+        font-size: 8px;
+    }
 
-     p {
-         font-size: 2.5rem;
-         line-height: 3rem;
-         padding: 2rem;
-     }
+    p {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding: 2rem;
+    }
 
-     .title {
-         font-weight: 400;
-         font-size: 10rem;
-     }
+    .title {
+        font-weight: 400;
+        font-size: 10rem;
+    }
 
-     .container {
-         width: 100%;
-     }
+    .container {
+        width: 100%;
+    }
 
-     /* [1] Navbar */
+    /* [1] Navbar */
+    header nav .nav-list li {
+        display: none;
+    }
 
-
-     /* [2] Hero Section  */
-
-
-     /* [3] Our Client Section */
-
-
-     /* [4] What is Web3 studio?  Section  */
+    /* [2] Hero Section  */
 
 
-     /* [5] Projects Section */
+    /* [3] Our Client Section */
 
-        #projects .project-grid-parent {
-            grid-template-columns: repeat(1,calc(100%));
-            column-gap: 0;
-        }
-        #projects .title {
-            text-align: center;
-        }
 
-     /* [6] Other projects Section */
-     
+    /* [4] What is Web3 studio?  Section  */
 
-     /* [7] How we can help grow */
 
-     /* [8] About Section */
-     #about .container .boxes {
-         grid-template-columns: repeat(1, 1fr);
-     }
+    /* [5] Projects Section */
 
-     #about .container .boxes .about-content {
-         align-items: center;
-     }
+    #projects .title {
+        text-align: center;
+    }
 
-     #about .container .boxes .about-image-rigth .tringle,
-     #about .container .boxes .about-content .img,
-     #about .container .boxes .about-image-left .square {
-         display: none;
-     }
+    /* [6] Other projects Section */
 
-     #about .container .boxes .about-image-rigth .img,
-     #about .container .boxes .about-image-left .img {
-         width: 30rem;
-     }
-/* [9] Footer */
-.title2{
-    font-size: 10px!important;
-    width: 100%;
+
+    /* [7] How we can help grow */
+
+    /* [8] About Section */
+    #about .container .boxes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #about .container .boxes .about-content {
+        align-items: center;
+    }
+
+    #about .container .boxes .about-image-rigth .tringle,
+    #about .container .boxes .about-content .img,
+    #about .container .boxes .about-image-left .square {
+        display: none;
+    }
+
+    #about .container .boxes .about-image-rigth .img,
+    #about .container .boxes .about-image-left .img {
+        width: 30rem;
+    }
+
+    /* [9] Footer */
+    .title2 {
+        font-size: 10px !important;
+        width: 100%;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    footer .container .rigth-box ul li.list-titre {
+        font-size: 2.5rem;
+        color: white;
+        padding-top: 3rem;
+    }
+
+    footer .container .rigth-box ul li {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    footer .row-cols-2>* {
+        width: 100%;
+    }
+
+    #icon-to-top {
+        font-size: 4rem;
+        right: 50%;
+        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        color: var(--hoverColor);
+    }
+
+
 }
-footer .container{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
+
+@media (min-width:577px) and (max-width: 992px) {
+    /* [0] Global Style*/
+
+    .container {
+        width: 95%;
+    }
+
+    /* [1] Navbar */
+
+
+    /* [2] Hero Section  */
+
+
+    /* [3] Our Client Section */
+
+
+    /* [4] What is Web3 studio?  Section  */
+
+
+    /* [5] Projects Section */
+
+
+    /* [6] Other projects Section */
+
+
+    /* [7] How we can help grow */
+
+    /* [8] About Section */
+    #about .container .boxes .about-image-rigth .circle {
+        right: 0rem;
+    }
+
+    /* [9] Footer */
 }
-footer .container .rigth-box ul li.list-titre{
-    font-size: 2.5rem;
-    color: white;
-    padding-top: 3rem;
-}
-footer .container .rigth-box ul li{
-    font-size:2rem;
-    padding-bottom: 2rem;
-}
-footer .row-cols-2>* {
-    width: 100%;
-}
-
-#icon-to-top {
-    font-size: 4rem;
-    right: 50%;
-    transform:translateX(50%) ;
-    -webkit-transform:translateX(50%) ;
-    -moz-transform:translateX(50%) ;
-    -ms-transform:translateX(50%) ;
-    -o-transform:translateX(50%) ;
-    color: var(--hoverColor);
-}
-
-
- }
-
- @media (min-width:577px) and (max-width: 992px) {
-     /* [0] Global Style*/
-
-     .container {
-         width: 95%;
-     }
-
-     /* [1] Navbar */
-
-
-     /* [2] Hero Section  */
-
-
-     /* [3] Our Client Section */
-
-
-     /* [4] What is Web3 studio?  Section  */
-
-
-     /* [5] Projects Section */
-
-
-     /* [6] Other projects Section */
-
-
-     /* [7] How we can help grow */
-
-     /* [8] About Section */
-     #about .container .boxes .about-image-rigth .circle {
-         right: 0rem;
-     }
-/* [9] Footer */
- }
