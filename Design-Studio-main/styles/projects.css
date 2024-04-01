@@ -1,0 +1,47 @@
+:root {
+    --project-dark-bg-color: #474747;
+    --project-padge-bg-color: #070707;
+    --project-padge-text-color: #f3f3f3;
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+}
+#projects  h2,#projects  h3 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#projects  h2 {
+    /* font-size: 40px; */
+    margin-bottom: 30px;
+    /* font-weight: 500; */
+}
+#projects h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+#projects .project-grid-parent {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2,calc(50% - 10px));
+    grid-template-rows: repeat(100,auto);
+    gap: 10px;
+}
+#projects .project-grid-child * {
+    width: 100%;
+}
+#projects .project-text-area {
+    padding: 20px;
+    background-color: var(--project-dark-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+#projects .project-padge {
+    display: inline-block;
+    background-color: var(--project-padge-bg-color);
+    color: var(--project-padge-text-color);
+    padding: 0.5em 1.5em;
+    line-height: 1em;;
+    border-radius: calc(1em + 1em);
+    width: fit-content;
+}
