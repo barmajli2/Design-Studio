@@ -137,6 +137,52 @@ p {
 
 /* [1] Navbar */
 
+#hero{
+  width: auto;
+  height: 50px;
+  background-color: rgb(3, 6, 0);
+}
+#hero .container{
+  /* padding:auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .container > .logo a{
+  margin-left: 20%;
+  text-decoration: none;
+}
+.url ul{
+  
+  
+  display: flex;
+  /* justify-content: space-around; */
+}
+#hero .container ul li{
+  font-size: larger;
+  margin: 5%;
+  
+}
+#hero .container ul li a{
+  text-decoration: none;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+
+.menu {
+  margin-right: 10px;
+}
+.menu i {
+  font-size: x-large;
+  transform: rotate(90deg);
+}
+.menu span{
+  font-size: large;
+  margin-right: 10px;
+}
+
 header .container nav {
   display: flex;
   align-items: center;
